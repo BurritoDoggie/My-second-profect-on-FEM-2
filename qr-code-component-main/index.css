@@ -1,0 +1,49 @@
+:root {
+    --color1: hsl(212, 45%, 89%);
+    --color2: hsl(220, 15%, 55%);
+    --color3: hsl(218, 44%, 22%);
+    --font1: font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    --font2: font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 10px;
+    width: 310px;
+    height: 490px;
+}
+
+.image {
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.para1 {
+    color: var(--color3);
+    font-size: 20px;
+    width: 250px;
+    margin-left: 30px;
+}
+
+.para2 {
+    color: var(--color2);
+    width: 250px;
+    margin-left: 30px;
+}
+
+.para12 {
+    text-align: center;
+}
+
